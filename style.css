@@ -1,0 +1,13 @@
+body { font-family: Arial, sans-serif; background: #121212; color: #fff; margin: 0; }
+header { display: flex; justify-content: space-between; padding: 20px; background: #1f1f1f; }
+nav a { margin-left: 20px; text-decoration: none; color: #fff; }
+.container { padding: 40px 20px; max-width: 1000px; margin: auto; }
+.hero { display: flex; justify-content: space-between; align-items: center; margin-bottom: 40px; }
+.btn-gradient { background: linear-gradient(90deg,#00FFA3,#DC1FFF); color:#fff; padding:10px 20px; border:none; border-radius:5px; cursor:pointer; text-decoration:none; }
+.signal-card { background: #1e1e1e; padding: 15px; margin: 10px 0; border-left: 5px solid #00FFA3; border-radius: 6px; }
+.signal-card.sell { border-left-color: #FF4C4C; }
+.signal-card h3 { margin: 0 0 5px 0; }
+.signal-card p { margin: 2px 0; }
+footer { text-align:center; padding:20px; background:#1f1f1f; margin-top:40px; }
+form input, form textarea { width:100%; padding:10px; margin:5px 0; border-radius:5px; border:none; }
+form button { background:#00FFA3; color:#000; padding:10px 20px; border:none; border-radius:5px; cursor:pointer; margin-top:10px; }
